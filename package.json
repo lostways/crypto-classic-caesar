@@ -1,0 +1,30 @@
+{
+  "name": "crypto-classic-caesar",
+  "version": "1.0.0",
+  "description": "classic caesar cipher",
+  "main": "caesar.js",
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostways/crypto-classic-caesar"
+  },
+  "keywords": [
+    "classic",
+    "crypto",
+    "caesar"
+  ],
+  "author": "Andrew Lowe <andrew@lostways.com> (http://lostways.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lostways/crypto-classic-caesar/issues"
+  },
+  "homepage": "https://github.com/lostways/crypto-classic-caesar",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "crypto-classic-utils": "^1.0.0"
+  }
+}
