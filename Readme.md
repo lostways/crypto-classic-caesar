@@ -20,5 +20,5 @@ var caesar = require('crypto-classic-caesar');
 var ciperText = caesar.encipher('this is a test', 3);
     
 //decrypt
-var plainText = caesar.decipher('wklv lv d whvw',3);
+var plainText = caesar.decipher('wklv lv d whvw', 3);
 ```
